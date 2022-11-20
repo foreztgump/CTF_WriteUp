@@ -52,8 +52,7 @@ Let's see if we can ssh to paradox with the credential we found.
 
 ![ssh_paradox](img/ssh_paradox_failed.png)
 
-Host doesn't allow ssh login with password.
-Let's try to login to the ftp server using the credentials we found.
+Host doesn't allow ssh login with password without an authorized public key. Let's try to login to the ftp server using the credentials we found.
 
 ```ftp 10.10.205.247```
  
