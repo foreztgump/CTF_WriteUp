@@ -99,9 +99,7 @@ We can see that paradox user is on there. Let's try to switch to paradox user wi
 
 Great!...but we can see that there is no flag in paradox home directory. There is another user called James. However, we dont have James password. Let's do some more enumeration.
 
-*Extra
-
-Since we can't ssh to paradox with password, we can try to create a private key on our machine and add the generated public key to authorized_key in .ssh folder in paradox home directory. This way we can ssh to paradox without password.
+*Extra* Since we can't ssh to paradox with password, we can try to create a private key on our machine and add the generated public key to authorized_key in .ssh folder in paradox home directory. This way we can ssh to paradox without password.
 
 ```ssh-keygen paradox```
 
