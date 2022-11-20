@@ -46,7 +46,14 @@ We can see that there is an excel gpg encrypted file and a private key. Let's tr
 
 #### Exploit
 
-We can see that there are some usernames and passwords in the csv file. We also know that paradox and muirlandoracle are the users from the web page. Let's try to login to the ftp server using the credentials we found.
+We can see that there are some usernames and passwords in the csv file. We also know that paradox and muirlandoracle are the users from the web page. 
+
+Let's see if we can ssh to paradox with the credential we found.
+
+![ssh_paradox](img/ssh_paradox_failed.png)
+
+Host doesn't allow ssh login with password.
+Let's try to login to the ftp server using the credentials we found.
 
 ```ftp 10.10.205.247```
  
@@ -87,11 +94,7 @@ First flag down. Let's see what other users are on this host. We can use the com
 
 ![users](img/passwd.png)
 
-We can see that paradox user is on there. Let's see if we can ssh to paradox to get user flag.
-
-![ssh_paradox](img/ssh_paradox_failed.png)
-
-Host doesn't allow ssh login with password. Let's try to switch to paradox user with su command.
+We can see that paradox user is on there. Let's try to switch to paradox user with su command.
 
 ![su_paradox](img/su_paradox.png)
 
