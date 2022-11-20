@@ -1,5 +1,5 @@
 ## Tryhackme
 
--   #### Room: [Overpass3](/Tryhackme/overpass3)
+-   #### Room: [Overpass3](tree/master/Tryhackme/overpass3)
 
 ## HackTheBox
