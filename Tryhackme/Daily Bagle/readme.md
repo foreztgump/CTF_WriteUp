@@ -168,8 +168,13 @@ Thank you for reading. I hope you enjoyed this writeup.
 
 #### Resources
 https://www.itoctopus.com/how-to-quickly-know-the-version-of-any-joomla-website
+
 https://mariadb.com/kb/en/mariadb-1005-release-notes/
+
 https://database.guide/6-ways-to-check-your-mariadb-version/
+
 https://docs.joomla.org/Administrator_(Application)
+
 https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php
+
 https://gtfobins.github.io/gtfobins/yum/
