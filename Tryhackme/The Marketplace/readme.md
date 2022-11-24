@@ -150,7 +150,7 @@ Great! We can run backup.sh as 'michael'. Let's check out the backup.sh file.
 
 ![priv_es_1](img/priv_es_1.png)
 
-![priv_es_2](img/priv_es_2.png)
+![priv_es_2](img/priv_es_22.png)
 
 After some research, I found that we can gain privelege escalation by using the ```--checkpoint=1``` and ```--checkpoint-action=exec=sh``` options of tar. We also know that we can write in ```/opt/backups/``` folder. Let's try it out
 
