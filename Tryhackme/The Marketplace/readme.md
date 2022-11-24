@@ -61,7 +61,7 @@ We can see that we can report a listing and the message says that the admin will
 
 Let's create a new listing with our payload and report it.
 
-![cookie_steal_1](img/cookie_steal_1.png)
+![cookie_steal_1](img/cookie_steal_11.png)
 
 ![cookie_steal_2](img/cookie_steal_2.png)
 
