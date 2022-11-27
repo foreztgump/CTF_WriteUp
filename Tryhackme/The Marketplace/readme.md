@@ -8,7 +8,7 @@ Difficulty: Medium
 
 Can you take advantage of this and will you be able to gain root access on his server?" - THM
 
-##### *Before we start, I have to apologize for the host IP address. It is all over the place. I let the room timeout twice while working on this room and writing this writeup.*
+##### *Before we start, I apologize for the host IP address. It is all over the place. I let the room timeout twice while working on this room and writing this writeup.*
 
 #### Recon
 We can start with nmap scan command:
